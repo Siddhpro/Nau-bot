@@ -13,7 +13,7 @@ async def on_ready():
 
 @client.event
 async def on_member_join(member):
-    print(f'{member} has joined the server')
+    await message.channel(#WELCOME).send(f'{member} has joined the server')
 
 @client.event
 async def on_member_remove(member):
