@@ -3,6 +3,7 @@ from discord.ext import commands
 import random
 
 client = commands.Bot(command_prefix = '%')
+var member_count = 
 
 
 @client.event
@@ -16,11 +17,7 @@ async def on_member_join(member):
 
 @client.event
 async def on_member_remove(member):
-    print(f'{member} pls come back')
-
-@client.command()
-async def hello(ctx):
-    await ctx.send('you have robo boy suit')
+    print(f'{member} left ')
     
 @client.command()
 async def ping (ctx):
