@@ -49,4 +49,4 @@ async def _8ball(ctx,*,question):
                 "My sources say no.",
                 "Outlook not so good.",
                 "Very doubtful."]
-    await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
+    await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')nau
